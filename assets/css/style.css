@@ -127,6 +127,7 @@ section {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
     transition: height 2s;
+    justify-content: center;
 }
 
 .project:hover {
@@ -135,19 +136,20 @@ section {
 
 .project h3 {
     font-size: 28px;
-    background: var(--powder-blue);
+    background: rgba(202,240,248,0.8);
     color:var(--zaffre);
-    font-weight: lighter;
+    font-weight: normal;
+    border: 3px solid var(--zaffre);
+    border-radius: 5px;
 }
 
-.project h4 {
-    font-size: 22px;
-    background: var(--zaffre);
+.project span {
+    font-size: 24px;
+    background: rgba(16,11,172,0.8);
     color: var(--powder-blue);
-    font-weight: lighter;
-    padding-top: 5px;    
+    font-weight: normal;
+    padding-top: 1.5px;
 }
-
 
 /*.project images*/
 .run-buddy {
