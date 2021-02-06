@@ -68,7 +68,7 @@ nav ul {
 nav ul a {
     font-size: 26px;
     transition-property: text-decoration;
-    transition-duration: .5s;
+    transition-duration: 2s;
 }
 
 nav ul a:hover {
@@ -99,46 +99,82 @@ section {
 /*MY WORK STYLE*/
 .projects {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     background-color: var(--zaffre);
-    padding: 20px 60px;
+    padding: 20px 10px 0px 10px;
     border: solid 6px var(--star-blue);
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+
+.projects a {
+    text-decoration: none;
+    font-style: normal;
+    padding: 10px 0 0 10px;
 }
 
 .project {
     display: flex;
-    background-size: cover; 
-    align-items: flex-start;
-    
+    background-size: cover;
+    background-position: left;
+    align-items:flex-start;
+    flex-basis: 45%;
+    margin: 0 10px 20px 10px;
+    height: 175px;
+    flex-grow: 2;
+    border: 3px solid var(--powder-blue);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    transition: height 2s;
+}
+
+.project:hover {
+    height: 275px;
+}
+
+.project h3 {
+    font-size: 28px;
+    background: var(--powder-blue);
+    color:var(--zaffre);
+    font-weight: lighter;
+}
+
+.project h4 {
+    font-size: 22px;
+    background: var(--zaffre);
+    color: var(--powder-blue);
+    font-weight: lighter;
+    padding-top: 5px;    
 }
 
 
+/*.project images*/
 .run-buddy {
     background-image: url(../images/run-buddy.PNG);
-    flex: 100%;
     height: 400px;
+    flex-basis: 100%;
+    transition: height 2s;
+}
+
+.run-buddy:hover {
+    height: 450px
+}
+
+.placeholder-1 {
+    background-image: url(../images/placeholder1.jpeg);
 }
 
 .placeholder-2 {
-    background-image: url(../images/placeholder.png);
+    background-image: url(../images/placeholder2.jpg);
 }
 
 .placeholder-3 {
-    background-image: url(../images/placeholder.png);
+    background-image: url(../images/placeholder3.jpg);
 }
 
 .placeholder-4 {
-    background-image: url(../images/placeholder.png);
-}
-
-.placeholder-5 {
-    background-image: url(../images/placeholder.png);
-}
-
-.placeholder-6 {
-    background-image: url(../images/placeholder.png);
+    background-image: url(../images/placeholder4.jpg);
 }
 /*MY WORK STYLE END*/
 
@@ -232,6 +268,10 @@ section {
         padding: 0;
     }
 
+    .project {
+        flex-basis: 100%;
+    }
+
     .reach-me-content a {
         margin-top: 0;
     }
@@ -245,15 +285,27 @@ section {
     header img {
         width: 60%
     }
-
+    header h1 {
+        padding: 5px 0;
+    }
     nav {
         width: 40%;
     }
 
     .section-header {
         width: 50%;
-        margin: 30px auto 70px auto;
+        margin: 20px auto 30px auto;
         padding: 0;
+    }
+
+    .run-buddy {
+        flex-basis: 45%;
+        height: 175px;
+        transition: height 2s;
+    }
+
+    .run-buddy:hover {
+        height: 275px;
     }
 
     .reach-me-content {
