@@ -13,7 +13,7 @@ This website was created to showcase my present and future work as I progress th
 ## Website
 The website can be accessed by following this link: https://clint-hansen.github.io/my-portfolio/
 
-![Website Home and URL](assets/images/my-portfolio-project.png)
+![Website Homepage](https://github.com/Clint-Hansen/my-portfolio/blob/main/assets/images/my-portfolio-project.PNG?raw=true)
 
 
 ## Contribution
