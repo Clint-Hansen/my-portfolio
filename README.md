@@ -18,3 +18,8 @@ The website can be accessed by following this link: https://clint-hansen.github.
 
 ## Contribution
 Created by Clinton Hansen
+
+[GitHub](https://clint-hansen.github.io/my-portfolio/)
+
+[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+
